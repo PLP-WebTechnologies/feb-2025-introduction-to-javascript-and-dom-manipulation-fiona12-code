@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tourist Destination</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <button id="theme-button">Theme</button>
+
+    <div class="container">
+      <h1 id="heading">Nakuru County</h1>
+      <form action="" class="form-container" id="form-container">
+        <label for="destination">Select a destination:</label>
+        <select id="destination" name="destination" class="destination-select">
+          <option value="lake-nakuru">Lake Nakuru</option>
+          <option value="menengai-crater">Menengai Crater</option>
+          <option value="nakuru-national-park">Nakuru National Park</option>
+          <option value="hyrax-hill">Hyrax Hill</option>
+          <option value="aberdare-national-park">Aberdare National Park</option>
+        </select>
+        <input
+          type="submit"
+          value="submit"
+          class="submit-input"
+          id="submit-input"
+        />
+      </form>
+
+      <img src="flamingoes.jpeg" alt="flamingoes" />
+
+      <p>
+        Nakuru (also lesser known as Nax vegas) is a city in the Rift Valley
+        region of Kenya. It is the capital of Nakuru County, and it is the
+        fourth largest city in Kenya and the largest in the Great Rift Valley,
+        Kenya|Rift Valley region.
+      </p>
+    </div>
+
+    <button onclick="addElement()" id="addition">Welcome to Nakuru!</button>
+
+    <footer>
+      This page was created by <a href=""> Fiona Atieno</a> and is
+      <a href="">hosted on Netlify.</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
